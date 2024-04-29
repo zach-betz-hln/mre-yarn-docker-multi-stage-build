@@ -1,0 +1,9 @@
+{
+  // See https://www.npmjs.com/package/@tsconfig/node20
+  "extends": "@tsconfig/node20/tsconfig.json",
+  "compilerOptions": {
+    "module": "Node16",
+    "rootDirs": ["src"],
+    "outDir": "dist"
+  }
+}

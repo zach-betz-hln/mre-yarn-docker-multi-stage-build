@@ -1,0 +1,14 @@
+services:
+  app:
+    build:
+      context: .
+    deploy:
+      resources:
+        limits:
+          cpus: '0.25'
+          memory: 256M
+        reservations:
+          cpus: '0.25'
+          memory: 256M
+    ports:
+      - '3000:3000'
